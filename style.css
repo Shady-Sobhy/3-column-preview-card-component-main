@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.card{
+    display: flex;
+    width: 810px;
+    height: 500px;
+}
+
+.main-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-radius: 12px 0 0 12px;
+
+}
+
+.main-column-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+}
+
+.main-column-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+
+
+.paragraph-icon{
+    width: 75px;
+    margin-top:30px ;
+    
+}
+.paragraph-title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    margin-top:30px ;
+    color: hsl(0, 0%, 95%);
+    
+}
+.paragraph{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top:20px ;
+    margin-bottom: 30px;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.learn-more{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 95px;
+    height: 15px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 17px;
+    color: hsl(31, 77%, 52%);
+    
+}
+.learn-more:hover{
+    cursor: pointer;
+}
+.learn-more-2{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 95px;
+    height: 15px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 17px;
+    color: hsl(184, 100%, 22%);
+}
+.learn-more-2:hover{
+    cursor: pointer;
+}
+
+.learn-more-3{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 95px;
+    height: 15px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 17px;
+    color: hsl(179, 100%, 13%);
+}
+.learn-more-3:hover{
+    cursor: pointer;
+}
